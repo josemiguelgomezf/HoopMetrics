@@ -1,50 +1,50 @@
 {
   "Laura Gómez": {
-    "PTS": 15, "FGA": 12, "FG": 6, "3PA": 4, "3P": 2,
-    "FTA": 5, "FT": 3, "REB": 7, "AST": 4, "STL": 2, "BLK": 1, "TOV": 3, "MIN": 28
+    "PTS": 15, "FGA": 12, "FG": 6, "3P": 2,
+    "FTA": 5, "FT": 3, "REB": 7, "OREB": 2, "DREB": 5, "AST": 4, "STL": 2, "BLK": 1, "TOV": 3, "MIN": 28, "PTS_CONTRA": 12
   },
   "Marta Ruiz": {
-    "PTS": 8, "FGA": 8, "FG": 3, "3PA": 3, "3P": 1,
-    "FTA": 2, "FT": 2, "REB": 5, "AST": 2, "STL": 1, "BLK": 0, "TOV": 2, "MIN": 24
+    "PTS": 8, "FGA": 8, "FG": 3, "3P": 1,
+    "FTA": 2, "FT": 2, "REB": 5, "OREB": 1, "DREB": 4, "AST": 2, "STL": 1, "BLK": 0, "TOV": 2, "MIN": 24, "PTS_CONTRA": 10
   },
   "Sara Hernández": {
-    "PTS": 12, "FGA": 10, "FG": 5, "3PA": 2, "3P": 1,
-    "FTA": 4, "FT": 3, "REB": 6, "AST": 3, "STL": 2, "BLK": 1, "TOV": 2, "MIN": 30
+    "PTS": 12, "FGA": 10, "FG": 5, "3P": 1,
+    "FTA": 4, "FT": 3, "REB": 6, "OREB": 2, "DREB": 4, "AST": 3, "STL": 2, "BLK": 1, "TOV": 2, "MIN": 30, "PTS_CONTRA": 11
   },
   "Ana Torres": {
-    "PTS": 20, "FGA": 15, "FG": 8, "3PA": 5, "3P": 3,
-    "FTA": 6, "FT": 5, "REB": 10, "AST": 5, "STL": 2, "BLK": 2, "TOV": 4, "MIN": 32
+    "PTS": 20, "FGA": 15, "FG": 8, "3P": 3,
+    "FTA": 6, "FT": 5, "REB": 10, "OREB": 3, "DREB": 7, "AST": 5, "STL": 2, "BLK": 2, "TOV": 4, "MIN": 32, "PTS_CONTRA": 15
   },
   "Lucía Martín": {
-    "PTS": 4, "FGA": 5, "FG": 2, "3PA": 1, "3P": 0,
-    "FTA": 1, "FT": 0, "REB": 3, "AST": 1, "STL": 0, "BLK": 0, "TOV": 1, "MIN": 12
+    "PTS": 4, "FGA": 5, "FG": 2, "3P": 0,
+    "FTA": 1, "FT": 0, "REB": 3, "OREB": 1, "DREB": 2, "AST": 1, "STL": 0, "BLK": 0, "TOV": 1, "MIN": 12, "PTS_CONTRA": 6
   },
   "Paula Navarro": {
-    "PTS": 10, "FGA": 9, "FG": 4, "3PA": 3, "3P": 1,
-    "FTA": 2, "FT": 1, "REB": 4, "AST": 3, "STL": 1, "BLK": 1, "TOV": 1, "MIN": 20
+    "PTS": 10, "FGA": 9, "FG": 4, "3P": 1,
+    "FTA": 2, "FT": 1, "REB": 4, "OREB": 1, "DREB": 3, "AST": 3, "STL": 1, "BLK": 1, "TOV": 1, "MIN": 20, "PTS_CONTRA": 9
   },
   "Carmen Delgado": {
-    "PTS": 7, "FGA": 6, "FG": 3, "3PA": 2, "3P": 1,
-    "FTA": 2, "FT": 0, "REB": 5, "AST": 2, "STL": 1, "BLK": 0, "TOV": 1, "MIN": 18
+    "PTS": 7, "FGA": 6, "FG": 3, "3P": 1,
+    "FTA": 2, "FT": 0, "REB": 5, "OREB": 1, "DREB": 4, "AST": 2, "STL": 1, "BLK": 0, "TOV": 1, "MIN": 18, "PTS_CONTRA": 8
   },
   "Irene Romero": {
-    "PTS": 11, "FGA": 10, "FG": 5, "3PA": 4, "3P": 2,
-    "FTA": 3, "FT": 1, "REB": 4, "AST": 4, "STL": 1, "BLK": 0, "TOV": 2, "MIN": 26
+    "PTS": 11, "FGA": 10, "FG": 5, "3P": 2,
+    "FTA": 3, "FT": 1, "REB": 4, "OREB": 2, "DREB": 2, "AST": 4, "STL": 1, "BLK": 0, "TOV": 2, "MIN": 26, "PTS_CONTRA": 10
   },
   "Patricia López": {
-    "PTS": 6, "FGA": 5, "FG": 2, "3PA": 1, "3P": 0,
-    "FTA": 2, "FT": 2, "REB": 3, "AST": 2, "STL": 1, "BLK": 0, "TOV": 0, "MIN": 15
+    "PTS": 6, "FGA": 5, "FG": 2, "3P": 0,
+    "FTA": 2, "FT": 2, "REB": 3, "OREB": 1, "DREB": 2, "AST": 2, "STL": 1, "BLK": 0, "TOV": 0, "MIN": 15, "PTS_CONTRA": 7
   },
   "Sofía Ramos": {
-    "PTS": 3, "FGA": 4, "FG": 1, "3PA": 1, "3P": 0,
-    "FTA": 0, "FT": 0, "REB": 2, "AST": 1, "STL": 0, "BLK": 0, "TOV": 1, "MIN": 10
+    "PTS": 3, "FGA": 4, "FG": 1, "3P": 0,
+    "FTA": 0, "FT": 0, "REB": 2, "OREB": 0, "DREB": 2, "AST": 1, "STL": 0, "BLK": 0, "TOV": 1, "MIN": 10, "PTS_CONTRA": 5
   },
   "Claudia Vega": {
-    "PTS": 14, "FGA": 11, "FG": 6, "3PA": 3, "3P": 1,
-    "FTA": 4, "FT": 2, "REB": 8, "AST": 5, "STL": 2, "BLK": 1, "TOV": 3, "MIN": 29
+    "PTS": 14, "FGA": 11, "FG": 6, "3P": 1,
+    "FTA": 4, "FT": 2, "REB": 8, "OREB": 2, "DREB": 6, "AST": 5, "STL": 2, "BLK": 1, "TOV": 3, "MIN": 29, "PTS_CONTRA": 12
   },
   "Natalia Castro": {
-    "PTS": 0, "FGA": 0, "FG": 0, "3PA": 0, "3P": 0,
-    "FTA": 0, "FT": 0, "REB": 0, "AST": 0, "STL": 0, "BLK": 0, "TOV": 0, "MIN": 0
+    "PTS": 0, "FGA": 0, "FG": 0, "3P": 0,
+    "FTA": 0, "FT": 0, "REB": 0, "OREB": 0, "DREB": 0, "AST": 0, "STL": 0, "BLK": 0, "TOV": 0, "MIN": 0, "PTS_CONTRA": 0
   }
 }
