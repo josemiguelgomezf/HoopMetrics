@@ -1,86 +1,96 @@
-🏀 HoopMetrics
-Aplicación de estadística avanzada para baloncesto desarrollada en Python, compatible con PC y móviles.
+# HoopMetrics GUI
 
-HoopMetrics permite registrar partidos, calcular métricas tradicionales (puntos, rebotes, asistencias, robos, tapones) y estadísticas avanzadas (PER, eFG%, TS%, ORtg, DRtg, Win Shares, entre otras). Su objetivo es proporcionar a entrenadores, jugadores y analistas una herramienta sencilla pero potente para mejorar el análisis del rendimiento individual y colectivo.
+HoopMetrics es una herramienta en Python para **calcular y visualizar estadísticas de baloncesto** de jugadores y equipos. Esta versión incluye una interfaz gráfica (GUI) simple y moderna utilizando Tkinter, con gráficos y definiciones de métricas.
 
-🚀 Características principales (v1.0)
-Registro de jugadores y equipos.
+---
 
-Introducción rápida de estadísticas por partido.
+## 🏀 Características
 
-Cálculo automático de:
+- Cálculo de estadísticas individuales:
+  - PTS, REB, AST, STL, BLK, TOV, MIN
+  - eFG% (Effective Field Goal %)
+  - TS% (True Shooting %)
+  - PPM (Puntos por minuto)
+  - REB/MIN y AST/MIN
 
-Puntos, rebotes, asistencias, robos, tapones.
+- Cálculo de estadísticas de equipo:
+  - Totales de PTS, REB, AST, STL, BLK, TOV
+  - eFG% y TS% del equipo
+  - PPP (Puntos por posesión)
+  - ORTG (Offensive Rating)
+  - AST/POS y REB/POS
 
-eFG% (Effective Field Goal Percentage).
+- Visualización:
+  - Tabla de estadísticas individuales
+  - Panel con estadísticas de equipo
+  - Gráfico de barras apiladas de PTS, REB y AST por jugadora
+  - Logo de HoopMetrics
+  - Glosario completo de métricas con scroll
 
-TS% (True Shooting Percentage).
+---
 
-Exportación de estadísticas en CSV/Excel.
+## 📦 Requisitos
 
-📦 Instalación
-Clona este repositorio:
+- Python 3.8+
+- Librerías Python:
+  - `tkinter` (incluida en Python)
+  - `Pillow` (para cargar imágenes)
+  - `matplotlib` (para gráficos)
 
-git clone [https://github.com/tuusuario/HoopMetrics.git](https://github.com/tuusuario/HoopMetrics.git)
-cd HoopMetrics
+Instalación de librerías adicionales:
 
-Crea un entorno virtual (opcional pero recomendado):
+```bash
+pip install pillow matplotlib
+⚡ Uso
 
-python -m venv venv
+Clonar el repositorio:
 
-En Linux/Mac:
+git clone https://github.com/tuusuario/hoopmetrics.git
+cd hoopmetrics
 
-source venv/bin/activate
 
-En Windows:
+Guardar el archivo de estadísticas JSON en el mismo directorio (ejemplo: estadisticas.json).
 
-venv\Scripts\activate
+Ejecutar la aplicación:
 
-Instala las dependencias:
+python hoopmetrics_gui_v3.py
 
-pip install -r requirements.txt
 
-▶️ Uso
-Ejecuta la aplicación:
+Dentro de la GUI:
 
-python app.py
+Haz clic en "Cargar estadísticas" para seleccionar tu archivo JSON.
 
-En la versión inicial, la aplicación se ejecuta en terminal y permite:
+Visualiza las estadísticas individuales y de equipo.
 
-Registrar jugadores.
+Consulta el gráfico de PTS, REB y AST por jugadora.
 
-Introducir estadísticas de un partido.
+Revisa el glosario de métricas con definiciones completas.
 
-Obtener un resumen de métricas tradicionales y avanzadas.
+📁 Estructura del repositorio
+hoopmetrics/
+├── hoopmetrics_gui_v3.py   # Script principal con GUI
+├── hoopmetrics_logo.png    # Logo de la aplicación
+├── estadisticas.json       # Archivo de ejemplo con estadísticas
+└── README.md
 
-📱 Compatibilidad
-PC: Windows, Linux, MacOS.
+📝 Notas
 
-Móviles: A través de navegadores o empaquetando la app con Kivy o BeeWare (roadmap).
+La aplicación ajusta automáticamente los gráficos y el texto según el tamaño de la ventana.
 
-🛣️ Roadmap
-[ ] Interfaz gráfica básica (Tkinter / Kivy).
+Requiere que el archivo de estadísticas tenga la siguiente estructura por jugadora:
 
-[ ] Dashboard con gráficas de rendimiento.
+{
+  "Jugadora1": {"PTS":10,"REB":5,"AST":3,"STL":1,"BLK":0,"TOV":2,"FG":4,"FGA":8,"3P":1,"FTA":2,"MIN":20},
+  "Jugadora2": {...}
+}
 
-[ ] Base de datos para almacenar temporadas completas.
 
-[ ] Exportación en formatos PDF y Excel.
+Puedes modificar el tamaño de la ventana para mejorar la visualización del gráfico y del glosario.
 
-[ ] Versión instalable en Android/iOS.
+📌 Licencia
 
-🤝 Contribución
-¡Las contribuciones son bienvenidas! Sigue estos pasos para contribuir:
-
-Haz un fork del proyecto.
-
-Crea tu rama (ej: git checkout -b feature/nueva-funcion).
-
-Haz commit de tus cambios (git commit -m 'Agregada nueva función').
-
-Haz push a la rama (git push origin feature/nueva-funcion).
-
-Abre un Pull Request.
-
-📜 Licencia
 Este proyecto está bajo la licencia MIT.
+
+👤 Autor
+
+José Miguel Gómez Fernández
